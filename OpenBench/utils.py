@@ -112,7 +112,7 @@ def getMachineStatus(username=None):
            "{0} Threads / ".format(sum([f.threads for f in machines])) + \
            "{0} MNPS ".format(round(sum([f.threads * f.mnps for f in machines]), 2))
 
-def getPaging(content, page, url, pagelen=25):
+def getPaging(content, page, url, pagelen=17):
 
     start = max(0, pagelen * (page - 1))
     end   = min(content.count(), pagelen * page)

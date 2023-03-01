@@ -99,7 +99,7 @@ OPENBENCH_CONFIG = {
     'engines' : {
         'mess' : {
 
-            'nps'    : 5341799,
+            'nps'    : 3925984,
             'base'   : 'master',
             'book'   : 'Pohl.epd',
             'bounds' : '[0.00, 5.00]',

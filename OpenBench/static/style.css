@@ -161,12 +161,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #content #actions #stopbutton {
+    color: #000000;
     background-color: #fffa54;
 }
 
 #content #actions #restartbutton {
     color: #000000;
-    background-color: #fff643;
+    background-color: #fffa54;
 }
 
 #content #actions #deletebutton {
